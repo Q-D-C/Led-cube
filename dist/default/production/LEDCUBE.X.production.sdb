@@ -1,0 +1,174 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1829 ]
+[d frameptr 6 ]
+"45 /Users/nino/MPLABXProjects/LEDCUBE.X/main.c
+[e E2567 . `uc
+LOW 0
+HIGH 1
+]
+"10 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v2.32/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /Applications/microchip/xc8/v2.32/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"30 /Users/nino/MPLABXProjects/LEDCUBE.X/main.c
+[v _SetLayers SetLayers `(v  1 e 1 0 ]
+"38
+[v _ClearLayers ClearLayers `(v  1 e 1 0 ]
+"43
+[v _turnOffLayers turnOffLayers `(v  1 e 1 0 ]
+"51
+[v _turnOnLayer turnOnLayer `(v  1 e 1 0 ]
+"67
+[v _turnOnAllLayers turnOnAllLayers `(v  1 e 1 0 ]
+"75
+[v _clock_signal clock_signal `(v  1 e 1 0 ]
+"83
+[v _latch_enable latch_enable `(v  1 e 1 0 ]
+"90
+[v _send_data send_data `(v  1 e 1 0 ]
+"100
+[v _empty empty `(v  1 e 1 0 ]
+"110
+[v _voor voor `(v  1 e 1 0 ]
+"128
+[v _achter achter `(v  1 e 1 0 ]
+"146
+[v _op op `(v  1 e 1 0 ]
+"163
+[v _neer neer `(v  1 e 1 0 ]
+"180
+[v _init init `(v  1 e 1 0 ]
+"195
+[v _main main `(v  1 e 1 0 ]
+"1766 /Applications/microchip/mplabx/v5.50/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8/pic/include/proc/pic16f1829.h
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+[s S22 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2158
+[u S28 . 1 `S22 1 . 1 0 ]
+[v _LATBbits LATBbits `VES28  1 e 1 @269 ]
+[s S40 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2200
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _LATCbits LATCbits `VES49  1 e 1 @270 ]
+"8379
+[v _TRISB4 TRISB4 `VEb  1 e 0 @1132 ]
+"8382
+[v _TRISB5 TRISB5 `VEb  1 e 0 @1133 ]
+"8385
+[v _TRISB6 TRISB6 `VEb  1 e 0 @1134 ]
+"8388
+[v _TRISB7 TRISB7 `VEb  1 e 0 @1135 ]
+"8403
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1140 ]
+"8406
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1141 ]
+"8409
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1142 ]
+"8412
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1143 ]
+"28 /Users/nino/MPLABXProjects/LEDCUBE.X/main.c
+[v _layer layer `[4]ui  1 e 8 0 ]
+"195
+[v _main main `(v  1 e 1 0 ]
+{
+"207
+[v main@i_126 i `i  1 a 2 11 ]
+"200
+[v main@i i `i  1 a 2 9 ]
+"215
+} 0
+"110
+[v _voor voor `(v  1 e 1 0 ]
+{
+"126
+} 0
+"146
+[v _op op `(v  1 e 1 0 ]
+{
+"161
+} 0
+"163
+[v _neer neer `(v  1 e 1 0 ]
+{
+"178
+} 0
+"51
+[v _turnOnLayer turnOnLayer `(v  1 e 1 0 ]
+{
+[v turnOnLayer@x x `i  1 p 2 0 ]
+"65
+} 0
+"180
+[v _init init `(v  1 e 1 0 ]
+{
+"193
+} 0
+"100
+[v _empty empty `(v  1 e 1 0 ]
+{
+"107
+} 0
+"43
+[v _turnOffLayers turnOffLayers `(v  1 e 1 0 ]
+{
+"49
+} 0
+"128
+[v _achter achter `(v  1 e 1 0 ]
+{
+"144
+} 0
+"67
+[v _turnOnAllLayers turnOnAllLayers `(v  1 e 1 0 ]
+{
+"73
+} 0
+"90
+[v _send_data send_data `(v  1 e 1 0 ]
+{
+"92
+[v send_data@i i `i  1 a 2 5 ]
+"90
+[v send_data@data_out data_out `ui  1 p 2 0 ]
+"98
+} 0
+"83
+[v _latch_enable latch_enable `(v  1 e 1 0 ]
+{
+"88
+} 0
+"75
+[v _clock_signal clock_signal `(v  1 e 1 0 ]
+{
+"81
+} 0
+"38
+[v _ClearLayers ClearLayers `(v  1 e 1 0 ]
+{
+"41
+} 0
+"30
+[v _SetLayers SetLayers `(v  1 e 1 0 ]
+{
+[v SetLayers@value value `ui  1 p 2 0 ]
+"36
+} 0
